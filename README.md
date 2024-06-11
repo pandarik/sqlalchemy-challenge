@@ -78,6 +78,47 @@ Temperature Statistics:
 Endpoint: /api/v1.0/<start> (with optional <end> parameter)
 Returns minimum, average, and maximum temperatures for a specified date range.
 
+# Command line to add files to the repository
+create repo on githib
+clone repo - glit cone and key
+
+download files and starter code
+
+Write part 1 and part 2 code , save, test, commit
+
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % git add .        
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	new file:   SurfsUp/Resources/hawaii.sqlite
+	new file:   SurfsUp/Resources/hawaii_measurements.csv
+	new file:   SurfsUp/Resources/hawaii_stations.csv
+	new file:   SurfsUp/app.py
+	new file:   SurfsUp/climate_starter.ipynb
+
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % git add README.md
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % git commit -m 'readme'
+[main a34e79a] readme
+ 6 files changed, 20287 insertions(+)
+ create mode 100644 SurfsUp/Resources/hawaii.sqlite
+ create mode 100755 SurfsUp/Resources/hawaii_measurements.csv
+ create mode 100755 SurfsUp/Resources/hawaii_stations.csv
+ create mode 100644 SurfsUp/app.py
+ create mode 100644 SurfsUp/climate_starter.ipynb
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 329.37 KiB | 2.37 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/pandarik/sqlalchemy-challenge.git
+   839b17c..a34e79a  main -> main
+(base) pandari@Krishnas-MacBook-Pro sqlalchemy-challenge % 
 
 # Acknowledgments
 Leveraged Google, ChatGPT, and Copoilet as/where needed to develop/validate/troubleshoot code/data/functions. The Python and data science community for their invaluable resources.
