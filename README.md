@@ -39,6 +39,7 @@ Check the output of each cell to view the precipitation data, station statistics
 By following these instructions, you can effectively analyze and explore the climate data using Python libraries and SQL queries.
 
 Here's the Jupyter Notebook link:
+https://github.com/pandarik/sqlalchemy-challenge/blob/main/SurfsUp/climate_starter.ipynb
 
 
 
@@ -57,11 +58,10 @@ Clone this repository to your local machine.
 Navigate to the project directory.
 Run the Flask app:
 Here's the python app.py link:
+https://github.com/pandarik/sqlalchemy-challenge/blob/main/SurfsUp/app.py
 
-python app.py
 
-
-3. Endpoints:
+4. Endpoints:
 Precipitation Data:
 Endpoint: /api/v1.0/precipitation
 Returns a JSON representation of precipitation data for the last year.
